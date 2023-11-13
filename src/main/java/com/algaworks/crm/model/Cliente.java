@@ -7,6 +7,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import lombok.Data;
 
 
@@ -53,7 +54,7 @@ public class Cliente {
 		return Objects.equals(id, other.id) && Objects.equals(nome, other.nome);
 	}
 
-	
+	;
 	
 	
 }
